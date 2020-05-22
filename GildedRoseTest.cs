@@ -129,7 +129,7 @@ namespace csharp
             Assert.Equal(0, items[0].Quality);
         }
 
-        [Fact, Ignore("Not yet implemented")]
+        [Fact]
         public void ConjuredDecreasesBy2()
         {
             IList<Item> items = new List<Item> { new Item { Name = "Conjured", SellIn = 1, Quality = 2 } };
@@ -139,7 +139,7 @@ namespace csharp
             Assert.Equal(0, items[0].Quality);
         }
 
-        [Fact, Ignore("Not yet implemented")]
+        [Fact]
         public void ConjuredDecreasesBy4WhenSellByIsNegative()
         {
             IList<Item> items = new List<Item> { new Item { Name = "Conjured", SellIn = 0, Quality = 4 } };
